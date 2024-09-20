@@ -91,5 +91,5 @@ class OneRoomS6Fast(OneRoomS6):
             max_episode_steps=max_episode_steps,
             params=params,
             domain_rand=domain_rand,
-            **kwargs
+            **kwargs,
         )

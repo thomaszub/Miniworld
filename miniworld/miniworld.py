@@ -1,7 +1,7 @@
 import math
 from ctypes import POINTER
 from enum import IntEnum
-from typing import Optional, Tuple
+from typing import Optional
 
 import gymnasium as gym
 import numpy as np
