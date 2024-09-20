@@ -56,7 +56,7 @@ setup(
             "meshes/*.obj",
         ]
     },
-    extras_require={"testing": ["pytest==7.0.1", "torch"]},
+    extras_require={"testing": ["pytest", "torch"]},
     install_requires=[
         "numpy>=1.18.0",
         "pyglet==1.5.27",
