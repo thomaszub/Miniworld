@@ -185,6 +185,6 @@ class Sign(MiniWorldEnv, utils.EzPickle):
         *,
         seed: Optional[int] = None,
         options: Optional[dict] = None,
-    ) -> Tuple[ObsType, dict]:
+    ) -> tuple[ObsType, dict]:
         obs, info = super().reset(seed=seed, options=options)
         return {"obs": obs, "goal": self._goal}, info

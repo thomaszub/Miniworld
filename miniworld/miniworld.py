@@ -543,7 +543,7 @@ class MiniWorldEnv(gym.Env):
 
     def reset(
         self, *, seed: Optional[int] = None, options: Optional[dict] = None
-    ) -> Tuple[ObsType, dict]:
+    ) -> tuple[ObsType, dict]:
         """
         Reset the simulation at the start of a new episode
         This also randomizes many environment parameters (domain randomization)
