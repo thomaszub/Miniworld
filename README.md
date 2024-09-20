@@ -59,7 +59,7 @@ This simulator was created as part of work done at [Mila](https://mila.quebec/).
 ## Installation
 
 Requirements:
-- Python 3.7+
+- Python 3.9+
 - Gymnasium
 - NumPy
 - Pyglet (OpenGL 3D graphics)
