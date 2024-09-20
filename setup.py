@@ -59,7 +59,7 @@ setup(
     extras_require={"testing": ["pytest", "torch"]},
     install_requires=[
         "numpy>=1.18.0",
-        "pyglet==1.5.27",
+        "pyglet==1.5.29",
         "gymnasium>=0.26.2",
     ],
     # Include textures and meshes in the package
